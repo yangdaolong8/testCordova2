@@ -43,6 +43,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
         setContentView(R.layout.activity_main);
         mContext = this;
         initView();
+
+        Log.i(TAG, "onCreate: 加了代码测试分支");
     }
 
     /**
