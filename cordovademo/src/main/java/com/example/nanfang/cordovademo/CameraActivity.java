@@ -14,4 +14,11 @@ public class CameraActivity extends CordovaActivity{
         loadUrl("file:///android_asset/www/camera.html");
         Log.i(TAG, "onCreate: ");
     }
+
+    /**
+     * 初始化view
+     */
+    private void initView() {
+
+    }
 }
