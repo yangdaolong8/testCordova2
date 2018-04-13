@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <title>Hello World</title>
+    <style>
+        .line {
+            padding: 5px;
+        }
+        #myImage {
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+<div class="app">
+    <div class="line"><button id="openLabrary">拍照</button></div>
+    <div class="line"><img id="myImage"></img></div>
+    <div class="line"><span id="text"></span></div>
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/take_picture.js"></script>
+</body>
+</html>
